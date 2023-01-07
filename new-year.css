@@ -41,16 +41,12 @@
   text-align: right;
 }
 
-.btn-type-1 {
+.btn-1 {
   color: #005fac;
   font-size: 20px;
   font-weight: 600;
   background: #ffffff;
   position: absolute;
-  height: 25px;
-  top: 600px;
-  left: 1232px;
-  width: 110px;
   border: 0px;
   border-radius: 6px;
   width: 162px;
@@ -110,6 +106,7 @@
   font-weight: 600;
   color: #444343;
   margin: 8px;
+  padding-left: 6px;
 }
 
 .my-failures .points li::marker {
@@ -123,7 +120,7 @@
   position: absolute;
   width: 179px;
   height: 47px;
-  left: 650px;
+  left: 630px;
   top: 1792px;
   margin-top: 129px;
 }
@@ -150,4 +147,45 @@
   font-size: 25px;
   font-weight: 650;
   color: #737272;
+}
+
+/* call now box */
+
+.call-now {
+  position: absolute;
+  width: 1140px;
+  height: 300px;
+  left: 150px;
+  top: 2300px;
+  background-image: url("/resources/images/watch.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+
+.call-now > h1 {
+  padding: 59px 617px 277px 64px;
+  font-size: 40px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 900;
+  color: #ffffff;
+  background-image: linear-gradient(to right, #005fac, #005fac00);
+  border-radius: 12px;
+  background-size: 1140px 300px;
+  background-repeat: no-repeat;
+}
+
+.btn-2 {
+  color: #005fac;
+  font-size: 20px;
+  font-weight: 600;
+  background: #ffffff;
+  border: 0px;
+  border-radius: 6px;
+  position: absolute;
+  width: 160px;
+  height: 64px;
+  left: 210px;
+  top: 2500px;
 }
