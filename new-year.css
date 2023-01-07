@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.title {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* banner styles */
+
+.banner {
+  background-image: url("/resources/images/banner/banner3.png");
+  height: 808px;
+  width: 1600px;
+}
+
+.banner .title {
+  position: absolute;
+  font-weight: 900;
+  font-size: 65px;
+  color: #ffffff;
+  text-align: right;
+  width: 527px;
+  height: 229px;
+  left: 842px;
+  top: 214px;
+  letter-spacing: 3.5px;
+}
+
+.banner .description {
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 90;
+  color: #ffffff;
+  position: absolute;
+  width: 494px;
+  height: 78px;
+  left: 876px;
+  top: 468px;
+  text-align: right;
+}
+
+.btn-type-1 {
+  color: #005fac;
+  font-size: 20px;
+  font-weight: 600;
+  background: #ffffff;
+  position: absolute;
+  height: 25px;
+  top: 600px;
+  left: 1232px;
+  width: 110px;
+  border: 0px;
+  border-radius: 6px;
+  width: 162px;
+  height: 65px;
+  left: 1208px;
+  top: 580px;
+  margin-top: 32px;
+}
+
+/* "my failures" section */
+
+.my-failures img {
+    position: absolute;
+    width: 569px;
+    top: 935px;
+    height: 723px;
+    left: 200px;
+  }
+
+.my-failures .texts .title {
+  font-size: 39px;
+  font-weight: 900;
+  color: #151414;
+  position: absolute;
+  width: 285px;
+  height: 92px;
+  left: 860px;
+  top: 1180px;
+  text-align: left;
+}
+
+.my-failures .texts .description {
+  font-size: 16px;
+  font-weight: ;
+  color: #444343;
+  position: absolute;
+  width: 410px;
+  height: 100px;
+  left: 865px;
+  top: 1290px;
+  text-align: left;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  line-height: 25px;
+}
+
+.points {
+  position: absolute;
+  width: 349px;
+  height: 162px;
+  left: 825px;
+  top: 1429px;
+}
+
+.my-failures .points li {
+  list-style-type: "✓";
+  font-size: 16px;
+  font-weight: 600;
+  color: #444343;
+  margin: 8px;
+}
+
+.my-failures .points li::marker {
+  color: lawngreen;
+}
+
+/* "my plans" section */
+
+.my-plans .title {
+  font-size: 40px;
+  font-weight: 900;
+}
