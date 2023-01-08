@@ -12,6 +12,7 @@
 
 .banner {
   background-image: url("/resources/images/banner/banner3.png");
+  background-position: top;
   height: 808px;
   width: 1600px;
 }
@@ -188,4 +189,96 @@
   height: 64px;
   left: 210px;
   top: 2500px;
+}
+
+/* my previous activities */
+
+.previous {
+  position: absolute;
+  width: 1140px;
+  height: 300px;
+  left: 150px;
+  top: 2300px;
+  margin-top: 330px;
+}
+
+.previous .section-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 113px;
+}
+.content {
+  display: flex;
+  gap: 24px;
+}
+.item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.previous .title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.previous .sub-title {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.previous .description {
+  color: #757575;
+}
+
+.right-align {
+  text-align: right;
+}
+
+/* contact section */
+
+.contact {
+  display: flex;
+  gap: 100px;
+  position: absolute;
+  width: 1540px;
+  height: 500px;
+  top: 3300px;
+  margin-top: 330px;
+  background: #151414;
+  padding: 130px 200px;
+}
+.contact .section-title {
+  text-align: left;
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+.contact .section-description,.email,.phone{
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f8f8f8;
+  text-align: left;
+  max-width: 485px;
+}
+
+.contact div .icons a {
+    margin: 3px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+.your-message {
+  height: 80px;
 }
