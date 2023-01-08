@@ -11,7 +11,7 @@
 /* banner styles */
 
 .banner {
-  background-image: url("/resources/images/banner/banner3.png");
+  background-image: url("./resources/images/banner/banner3.png");
   background-position: top;
   height: 808px;
   width: 1600px;
@@ -158,7 +158,7 @@
   height: 300px;
   left: 150px;
   top: 2300px;
-  background-image: url("/resources/images/watch.png");
+  background-image: url("./resources/images/watch.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
