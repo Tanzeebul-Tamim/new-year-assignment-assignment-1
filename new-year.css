@@ -241,11 +241,12 @@
 /* contact section */
 
 .contact {
+  background-position: bottom;
+  height: 320px;
+  width: 1200px;
   display: flex;
   gap: 100px;
   position: absolute;
-  width: 1540px;
-  height: 500px;
   top: 3300px;
   margin-top: 330px;
   background: #151414;
@@ -258,17 +259,16 @@
   color: #f8f8f8;
   margin-bottom: 16px;
 }
-.contact .section-description,.email,.phone{
-  margin-bottom: 24px;
-  font-weight: 400;
-  font-size: 16px;
+
+.contact #section-title {
+  font-weight: 600;
+  font-size: 25px;
   color: #f8f8f8;
-  text-align: left;
-  max-width: 485px;
+  margin-bottom: 31px;
 }
 
 .contact div .icons a {
-    margin: 3px;
+  margin: 3px;
 }
 
 .contact input[type="text"],
@@ -279,6 +279,43 @@ textarea {
   width: 100%;
   padding: 18px 30px;
 }
-.your-message {
-  height: 80px;
+
+.contact input[type="email"] {
+  width: 235px;
+  height: 26px;
+  background: #005fac00;
+  border: solid #f8f8f8 3px;
+  border-radius: 10px;
+}
+
+::placeholder {
+  font-size: 17px;
+  color: #f8f8f8;
+}
+
+input:not(:placeholder-shown) {
+  font-size: 17px;
+  color: #f8f8f8;
+}
+
+.contact .section-description,
+.email,
+.phone {
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f8f8f8;
+  text-align: left;
+  max-width: 485px;
+}
+
+.btn-3 {
+  color: #f8f8f8;
+  font-size: 20px;
+  font-weight: 600;
+  background: #005fac;
+  border: 0px;
+  border-radius: 6px;
+  width: 162px;
+  height: 65px;
 }
